@@ -1,0 +1,14 @@
+.blur-glow-div {
+    width: 500px; /* Adjust the width as needed */
+    height: 500px; /* Adjust the height as needed */
+    background-color: #5DEA79;
+    border-radius: 50%; /* Makes it circular */
+    filter: blur(50px);
+    box-shadow: 0 0 100px #5DEA79;
+    position: absolute; /* Allows positioning on the page */
+    top: 50%; /* Adjust positioning as needed */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the div */
+    z-index: -1; /* Place it behind other content */
+  }
+  
