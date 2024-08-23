@@ -4,8 +4,8 @@ function Navbar() {
 
     return (
             <nav className="flex justify-between items-center p-6 text-white gap-4">
-                <div className="flex items-center relaive">
-                   <img src='/images/trust.png' className='w-[160px] h-[160px] absolute' />
+                <div className="flex items-center relative w-[160px] h-[30px]">
+                   <img src='/images/trust.png' className='w-[160px] h-[160px] absolute -top-[65px] -left-6' />
                 </div>
                 <div className='md:hidden'>
                     <MobileNav />
