@@ -7,8 +7,6 @@ interface ProjectProps {
     change: string;
     marketCap: string;
     communityVote: string;
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    chartData: any;
 }
 
 const ProjectCard: React.FC<ProjectProps> = ({
@@ -17,8 +15,6 @@ const ProjectCard: React.FC<ProjectProps> = ({
     change,
     marketCap,
     communityVote,
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    chartData,
 }) => {
     return (
         <div className="bg-secondary rounded-lg shadow-md p-4 flex flex-col gap-4">
@@ -152,7 +148,6 @@ const GridCard: React.FC = () => {
                         change={project.change}
                         marketCap={project.marketCap}
                         communityVote={project.communityVote}
-                        chartData={project.chartData}
                     />
                 ))}
             </div>
