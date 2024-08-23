@@ -4,9 +4,8 @@ function Navbar() {
 
     return (
             <nav className="flex justify-between items-center p-6 text-white gap-4">
-                <div className="flex items-center">
-                    <h1 className="text-xl font-bold uppercase">
-                        <span className='text-greenish'>Trust</span>Checker</h1>
+                <div className="flex items-center relaive">
+                   <img src='/images/trust.png' className='w-[160px] h-[160px] absolute' />
                 </div>
                 <div className='md:hidden'>
                     <MobileNav />
