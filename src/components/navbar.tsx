@@ -1,15 +1,17 @@
 import { MobileNav } from "./mobileNav"
+import trustLogo from "../assets/images/trust-logo.svg";
 
 function Navbar() {
 
     return (
             <nav className="flex justify-between items-center p-6 text-white gap-4">
                 <div className="flex items-center relative w-[160px] h-[30px]">
-                   <img src='/images/trust.png' className='w-[160px] h-[160px] absolute -top-[65px] -left-6' />
+                   <img src={trustLogo} className='w-[160px] h-[160px] absolute -top-[65px] -left-6' />
                 </div>
                 <div className='md:hidden'>
                     <MobileNav />
-                </div>
+            </div>
+            
                 <div className="hidden md:flex justify-center gap-4 items-center">
                     <a href="/" className="text-lg hover:text-gray-300">Home</a>
                     <a href="/service" className="text-lg hover:text-gray-300 ml-4">Services</a>
